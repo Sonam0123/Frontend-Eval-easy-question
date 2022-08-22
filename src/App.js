@@ -18,9 +18,9 @@ function App() {
 
   const datas =  data.map((question, index) => {
     return(
-      <div className='q-and-a' onClick={ (e) => handleClick(e,index) }>
+      <div className='q-and-a' >
         <div>
-          <div>{activeId === index ? "down" : '>'}</div>
+          <div className='arrows' onClick={ (e) => handleClick(e,index) }>{activeId === index ? '🔽' : '▶️'}</div>
           <p> {question.question}</p>
         </div>
         <p className={`${activeId === index ? 'show' :'hide'}`}>{question.answer}</p>

@@ -6,8 +6,7 @@
 }
 .outer-div{
   border: 2px solid lightgray;
-  width: fit-content;
-
+  width: 60%;
 }
 .inner-div{
   display: flex;
@@ -26,4 +25,8 @@
 }
 .hide{
   display: none;
+}
+.arrows{
+  cursor: pointer;
+  float: left;
 }
