@@ -1,8 +1,23 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.outer-div{
+  border: 2px solid lightgray;
+  width: fit-content;
 
+}
 .inner-div{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.q-and-a{
+  margin-bottom: 5px;
+  border: 1px solid black;
+  width: 70%;
 }
