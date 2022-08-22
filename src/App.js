@@ -4,7 +4,7 @@ import { BsFillArrowRightSquareFill } from 'react-icons/bs';
 import {useState} from 'react'
 function App() {
 
-  const [activeId, setActiveId] = useState(0);
+  const [activeId, setActiveId] = useState(-1);
 
 
   const handleClick = (e, index) => {
@@ -27,7 +27,7 @@ function App() {
       </div> 
     )
   })
-  return (
+  return (  
     <div className="App">
       <div className='outer-div'>
           <h1>Frequently Asked Questions</h1>
